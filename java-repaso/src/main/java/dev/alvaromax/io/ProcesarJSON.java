@@ -11,13 +11,16 @@ public class ProcesarJSON {
     public static void leerJSON (File jsonFile) throws Exception {
 
         ObjectMapper mapper = new ObjectMapper();
-
         List <Persona> personas = mapper.readValue(jsonFile, new TypeReference<List<Persona>>() {});
-
         for(Persona p : personas) {
             System.out.println(p.nombre + " " + p.apellido + " " + " - Email: " + p.email);
         }
-
+        
+        //filtrado con streams:
+        personas.stream()
+            .filter(p -> p.edad > 30)
+            .map(p -> p.email)
+            .forEach(System.out::println);
     }
 
     public static void main (String [] args) {
@@ -28,9 +31,6 @@ public class ProcesarJSON {
         } catch (Exception e) {
             System.out.println(e);
         }
-
-
     }
-
 
 }

@@ -1,0 +1,4 @@
+Este es un archivo
+Que quiero leer
+Es un haiku
+Para los Streams
