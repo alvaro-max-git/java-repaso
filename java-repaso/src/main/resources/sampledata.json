@@ -1,0 +1,72 @@
+[
+  {
+    "Nombre": "Ana",
+    "Apellido": "García",
+    "Edad": 28,
+    "DNI": "12345678A",
+    "Email": "ana.garcia@example.com"
+  },
+  {
+    "Nombre": "Luis",
+    "Apellido": "Fernández",
+    "Edad": 35,
+    "DNI": "87654321B",
+    "Email": "luis.fernandez@example.com"
+  },
+  {
+    "Nombre": "María",
+    "Apellido": "López",
+    "Edad": 22,
+    "DNI": "11223344C",
+    "Email": "maria.lopez@example.com"
+  },
+  {
+    "Nombre": "Javier",
+    "Apellido": "Martínez",
+    "Edad": 40,
+    "DNI": "44332211D",
+    "Email": "javier.martinez@example.com"
+  },
+  {
+    "Nombre": "Sofía",
+    "Apellido": "Sánchez",
+    "Edad": 31,
+    "DNI": "55667788E",
+    "Email": "sofia.sanchez@example.com"
+  },
+  {
+    "Nombre": "Carlos",
+    "Apellido": "Díaz",
+    "Edad": 27,
+    "DNI": "99887766F",
+    "Email": "carlos.diaz@example.com"
+  },
+  {
+    "Nombre": "Lucía",
+    "Apellido": "Ruiz",
+    "Edad": 29,
+    "DNI": "66778899G",
+    "Email": "lucia.ruiz@example.com"
+  },
+  {
+    "Nombre": "Miguel",
+    "Apellido": "Hernández",
+    "Edad": 33,
+    "DNI": "77889900H",
+    "Email": "miguel.hernandez@example.com"
+  },
+  {
+    "Nombre": "Elena",
+    "Apellido": "Gómez",
+    "Edad": 25,
+    "DNI": "33445566I",
+    "Email": "elena.gomez@example.com"
+  },
+  {
+    "Nombre": "Pablo",
+    "Apellido": "Moreno",
+    "Edad": 38,
+    "DNI": "22113344J",
+    "Email": "pablo.moreno@example.com"
+  }
+]

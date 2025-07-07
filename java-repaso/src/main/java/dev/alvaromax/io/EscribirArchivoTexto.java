@@ -9,6 +9,7 @@ public class EscribirArchivoTexto {
         StringBuilder sb = new StringBuilder();
         sb.append("Línea uno para escribir\n");
         sb.append("Línea dos para escribir\n");
+        sb.append("Línea 3\n");
 
         String pathname = "./java-repaso/src/main/java/dev/alvaromax/io/text_output.txt";
 
@@ -19,5 +20,4 @@ public class EscribirArchivoTexto {
         }
 
     }
-
 }
